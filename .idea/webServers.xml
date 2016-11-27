@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="debecf24-62e8-4321-b81c-28649829966f" name="ricardoswebconsulting.com" url="http://ftp.ricardoswebconsulting.com">
+        <fileTransfer host="ftp.ricardoswebconsulting.com" port="21" rootFolder="/dev">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
