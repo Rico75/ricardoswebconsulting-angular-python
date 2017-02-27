@@ -1,0 +1,21 @@
+/**** Start ABout Us Section ****/
+
+.about-text {
+  padding-bottom: 50px;
+}
+.about-text p {
+  color: #777;
+  text-align: justify;
+}
+.about-text ul {
+  margin-top: 30px;
+  font-size: 13px;
+}
+.about-text li {
+  margin-bottom: 10px;
+  color: #999;
+}
+.about-text li i {
+  padding-right: 10px;
+  color: #FF432E;
+}

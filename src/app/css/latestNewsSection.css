@@ -1,0 +1,29 @@
+/**** Start Latest News Section ****/
+
+.latest-post {
+  padding-bottom: 20px;
+}
+.latest-post h4 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.latest-post h4 a {
+  color: #FF432E;
+}
+.latest-post .post-details li {
+  color: #FF432E;
+  display: inline;
+  font-size: 13px;
+  color: #999;
+  padding-right: 10px;
+}
+.latest-post .post-details li i {
+  padding-right: 5px;
+  color: #FF432E;
+}
+.latest-post p {
+  padding: 15px 0;
+  color: #999;
+  font-weight: 300;
+  text-align: justify;
+}

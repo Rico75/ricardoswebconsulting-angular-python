@@ -1,0 +1,13 @@
+/**** Start Logo Section ****/
+
+#logo-section {
+
+}
+.logo h1 {
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  font-size: 60px;
+}
+.logo span {
+  color: #999;
+}
