@@ -49,6 +49,7 @@
   </head>
 
   <body>
+
   <!---
     <div class="todoapp">
       <fountain-root>Loading...</fountain-root>
@@ -1133,7 +1134,7 @@
     <!-- End Contact Section -->
 
 
-    <!-- Start Testimonial Section -->
+    <!-- Start Social Media Section -->
     <div class="section-modal modal fade contact" id="testimonial-modal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -1146,18 +1147,25 @@
         <div class="container">
           <div class="row">
             <div class="section-title text-center">
-              <h3>Client's Speech About Us</h3>
-              <p>Duis aute irure dolor in reprehenderit in voluptate</p>
+              <h3>Social Media</h3>
+              <p>View my latest posts</p>
             </div>
           </div>
           <div class="row">
 
             <div class="col-md-6">
               <div class="testimonial">
+                <!---
                 <img src="app/images/team/manage-1.png" class="img-responsive" alt="...">
                 <h4>John Doe</h4>
                 <div class="speech">
                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                </div>
+                --->
+                <div class="fb-page" data-href="https://www.facebook.com/Ricardos-Web-Consulting-1253358738035459/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                  <blockquote cite="https://www.facebook.com/Ricardos-Web-Consulting-1253358738035459/" class="fb-xfbml-parse-ignore">
+                    <a href="https://www.facebook.com/Ricardos-Web-Consulting-1253358738035459/">Facebook</a>
+                  </blockquote>
                 </div>
               </div>
             </div>
@@ -1198,7 +1206,20 @@
 
       </div>
     </div>
-    <!-- End Testimonial Section -->
+    <!-- End Social Media  Section -->
+
+  <!-- JavaScript includes -->
+
+  <!-- Facebook embed wall --->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1253707201409167";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <!-- End JavaScript includes -->
 
   </body>
 </html>
