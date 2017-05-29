@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const HubRegistry = require('gulp-hub');
 const browserSync = require('browser-sync');
+const bower = require('gulp-bower');
 
 const conf = require('./conf/gulp.conf');
 
@@ -18,13 +19,14 @@ gulp.task('serve', gulp.series('webpack:watch', 'watch', 'browsersync'));
 gulp.task('serve:dist', gulp.series('default', 'browsersync:dist'));
 gulp.task('default', gulp.series('clean', 'copy', 'build'));
 gulp.task('watch', watch);
+gulp.task('bower', function(){ return bower(); });
 
 function reloadBrowserSync(cb) {
   browserSync.reload();
   cb();
 }
-
 function watch(done) {
   gulp.watch(conf.path.src('app/**/*.html'), reloadBrowserSync);
   done();
 }
+
